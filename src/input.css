@@ -5,3 +5,15 @@
 * {
   font-family: 'Tajawal', sans-serif;
 }
+
+.has-error {
+  @apply border-red-300
+}
+
+.error {
+  @apply hidden mt-2;
+}
+
+.has-error ~ .error {
+  @apply inline-block;
+}
